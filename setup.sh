@@ -15,7 +15,10 @@ sudo apt-get install -y python-pip # install pip
 # Install latest emacs
 sudo apt-get install -y emacs
 
-# TODO (SeboJBP): Automatize Python set up for my needs.
+# TODO (SeboJBP): Automate Python library installation 
+# Install Python data-related libraries ("SciPy Stack")
+# ref: http://www.scipy.org/stackspec.html
+sudo apt-get install -y python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
 # Install Google App Engine
 wget -P $HOME/bin/ https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.4.zip
